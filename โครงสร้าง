@@ -1,0 +1,43 @@
+msd-club/
+│
+├── backend/                     # 🔹 ฝั่ง Flask (Python)
+│   ├── app.py
+│   ├── admin_guard.py
+│   ├── models.py
+│   ├── msd.db
+│   ├── requirements.txt
+│   ├── static/
+│   │   ├── js/
+│   │   │   ├── admin_alumni.js
+│   │   │   ├── admin_post.js
+│   │   │   ├── announcement.js
+│   │   │   └── profile.js
+│   │   ├── picture/
+│   │   │   ├── MSD.jpg
+│   │   │   ├── 1.jpg
+│   │   │   ├── 2.png
+│   │   │   └── 3.jpg
+│   │   └── css/   ← ถ้ามีไฟล์ CSS ก็ใส่ตรงนี้
+│   └── templates/
+│       ├── index.html
+│       ├── alumni.html
+│       ├── alumni_profile.html
+│       ├── announcements.html
+│       ├── admin.html
+│       └── post.html
+│
+└── frontend/                    # 🔹 ฝั่งเว็บ (สำหรับ Firebase Hosting)
+    ├── index.html
+    ├── alumni.html
+    ├── announcements.html
+    ├── picture/
+    │   ├── MSD.jpg
+    │   ├── 1.jpg
+    │   ├── 2.png
+    │   └── 3.jpg
+    ├── js/
+    │   ├── announcement.js
+    │   ├── profile.js
+    │   └── ...
+    ├── css/
+    └── firebase.json
